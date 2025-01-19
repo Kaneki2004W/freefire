@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: white;
+    background-position: 100px 100px;
+}
+  
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 50px;
+    position: fixed; 
+    width: 100%;  
+    z-index: 10;
+    background-color: rgb(243, 185, 76);
+}
+.logoimg{
+    width: 140px;
+
+}
+.navbar .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+}
+  
+.navbar .nav-links li a{
+    color: #000000; 
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.top-container{
+    position: relative;
+    background-color: black;
+    height: 100vh;
+}
+.kapela{
+    position: absolute;
+    width: 800px;
+    top: 140px;
+    left: 500px;
+    transform: scaleX(-1);
+}
+.ffh{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 7rem;
+}
+.ffp{
+    color: white;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    width: 450px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.btn{
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 20px 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.second-container{
+    margin-top: 100px;
+}
+.ln{
+    padding-left: 40px;
+    font-size: 70px;
+}
+.news{
+    display: flex;
+    justify-content: space-around;
+    padding:70px 0 100px 0;
+}
+.news img{
+    width: 350px;
+    border-radius: 8px;
+    border: 3px solid orange;
+}
+.pp{
+    width: 350px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+span{
+    color: orange;
+}
+.third-container{
+    background-image: url(photos/luna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.etext{
+    position: relative;
+}
+.et1{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    color: orange;
+    font-size: 6rem;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.8);
+}
+.ep1{
+    position: absolute;
+    top: 460px;
+    left: 750px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.btn1{
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    position: relative;
+    top: 75%;
+    left: 60%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 20px 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.last-container{
+    padding: 70px 0;
+    background: linear-gradient(to bottom, rgb(27, 27, 27), black); /* Left to right */
+    height: 100%;
+    width: 100%;
+}
+.end{
+    display: flex;
+}
+.links{
+    position: relative;
+    left: 18%;
+}
+.flinks{
+    display: flex;
+    gap: 120px;
+    padding-bottom: 20px;
+}
+.flinks li{
+    list-style: none;
+}
+.flinks li a{
+    color: rgb(131, 130, 130);
+    font-size: 0.9rem;
+}
+.ftext{
+    color: rgb(129, 129, 129);
+    font-size: 0.7rem;
+}
+.logog{
+    width: 240px;
+    position: relative;
+    left: 80%;
+    bottom: 10%;
+}
+  
